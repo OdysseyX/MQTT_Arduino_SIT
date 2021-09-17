@@ -1,0 +1,23 @@
+{
+  "name": "communication",
+  "version": "1.0.0",
+  "description": "A MQTT program for our Arduino",
+  "main": "main.js",
+  "scripts": {
+    "test": "testrun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdysseyX/MQTT_Arduino_SIT.git"
+  },
+  "author": "Munasti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdysseyX/MQTT_Arduino_SIT/issues"
+  },
+  "homepage": "https://github.com/OdysseyX/MQTT_Arduino_SIT#readme",
+  "dependencies": {
+    "mqtt": "^4.2.8",
+    "serialport": "^9.2.1"
+  }
+}
