@@ -61,14 +61,14 @@ void loop() {
  
     //===========================Simple Control===============================//
 
-    Serial.println("Drive Forwards");
-    motor.write(forwards_slow);wheel.write(wheel_center); delay(4000);
-    Serial.println("Stop");
-    motor.write(throttle_off);wheel.write(wheel_center); delay(4000);
-    Serial.println("Turn Left");
-    motor.write(forwards_slow);wheel.write(wheel_left); delay(4000);
-    Serial.println("Turn Right");
-    motor.write(forwards_slow);wheel.write(wheel_right); delay(4000);
+    Serial.println("fords");
+    motor.write(forwards_slow);wheel.write(wheel_center); delay(5000);
+    Serial.println("stops");
+    motor.write(throttle_off);wheel.write(wheel_center); delay(5000);
+    Serial.println("lefts");
+    motor.write(forwards_slow);wheel.write(wheel_left); delay(5000);
+    Serial.println("right");
+    motor.write(forwards_slow);wheel.write(wheel_right); delay(5000);
 
 
 }
